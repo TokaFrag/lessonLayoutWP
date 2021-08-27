@@ -129,3 +129,69 @@ h2.title {
   margin: 0px auto;
   margin-top: 5px;
 }
+
+.waiting .container {
+}
+
+.waiting {
+  padding: 88px 0 75px;
+  height: 607px;
+  background: #efefef;
+}
+
+.waiting .container .waitingHeader {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #252525;
+}
+
+.waiting .container .waitingDivider {
+  width: 220px;
+  height: 7px;
+  margin: 0 auto;
+  margin-top: 18px;
+  background: #f9bf3b;
+}
+
+.waiting .container .waitingSubheader {
+  margin-top: 17px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waitingWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 45px;
+}
+
+.waiting .waitingWrapper .waitingItem {
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waitingWrapper .waitingItem .waitingImg {
+  width: 100%;
+}
+
+.waiting .waitingWrapper .waitingItem .waitingDescr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-top: 26px;
+}
