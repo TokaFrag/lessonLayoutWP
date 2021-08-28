@@ -342,6 +342,7 @@ h2.title {
 }
 
 .webinar .webinarItem .webinarDescrBottom {
+  padding-bottom: 52px;
   margin-top: 24px;
   font-family: Roboto;
   font-style: normal;
@@ -351,4 +352,29 @@ h2.title {
   text-align: center;
 
   color: #4a4a4a;
+}
+
+.footer {
+  height: 169px;
+  background: #1a1a1a;
+}
+
+.footer .footerLinks {
+  margin: 0 auto;
+  width: 407px;
+  padding: 57px 0 69px 0;
+  text-align: center;
+}
+
+.footer .footerLinks a,
+span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+
+  text-decoration-line: underline;
+
+  color: #888888;
 }
