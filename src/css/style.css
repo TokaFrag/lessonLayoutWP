@@ -306,3 +306,49 @@ h2.title {
   text-align: center;
   color: #252525;
 }
+
+.webinar {
+  margin-top: 81px;
+}
+
+.webinar .webinarItem .webinarImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar .webinarItem .webinarDescrTop {
+  margin-top: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.webinar .webinarItem .webinarDescrMidle {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #299cbd;
+}
+
+.webinar .webinarItem .webinarDescrBottom {
+  margin-top: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #4a4a4a;
+}
