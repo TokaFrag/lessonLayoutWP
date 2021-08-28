@@ -137,7 +137,8 @@ h2.title {
   background: #efefef;
 }
 
-.waiting .container .waitingHeader {
+.waiting .container .waitingHeader,
+.finish .finishHeader {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -145,11 +146,15 @@ h2.title {
   line-height: 30px;
   text-align: center;
   text-transform: uppercase;
-
   color: #252525;
 }
 
-.waiting .container .waitingDivider {
+.finish .finishHeader {
+  color: #efefef;
+}
+
+.waiting .container .waitingDivider,
+.finish .finishDivider {
   width: 220px;
   height: 7px;
   margin: 0 auto;
@@ -196,7 +201,7 @@ h2.title {
 
 .optimization {
   min-height: 550px;
-  padding: 102px 0 107px 0;
+  padding: 102px 0 48px 0;
 }
 
 .optimization .container {
@@ -235,4 +240,42 @@ h2.title {
   top: -54px;
   left: -240px;
   z-index: -1;
+}
+
+.finish {
+  min-height: 447px;
+  padding: 86px 0 49px 0;
+  background: url("../img/bg/second_bg.png") center center/cover no-repeat;
+}
+
+.finish .finishWrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish .finishWrapper .finishItem {
+  width: 180px;
+}
+
+.finish .finishWrapper .finishItem .finishRound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  background: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finishWrapper .finishItem .finishDescr {
+  margin-top: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #efefef;
 }
