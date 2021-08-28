@@ -86,9 +86,10 @@ h2.title {
   color: #f9bf3b;
 }
 
-.promo .promoBtn {
+.promo .promoBtn,
+.prezent .prezentBtn {
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
   margin-top: 72px;
   width: 313px;
   height: 72px;
@@ -106,6 +107,10 @@ h2.title {
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   cursor: pointer;
   outline: none;
+}
+
+.prezent .prezentBtn {
+  margin-top: 51px;
 }
 
 .more {
@@ -278,4 +283,26 @@ h2.title {
   font-size: 17px;
   line-height: 20px;
   color: #efefef;
+}
+
+.prezent {
+  background: #efefef;
+  min-height: 631px;
+  padding: 88px 0 88px 0;
+}
+
+.prezent .prezentImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.prezent .prezentText {
+  margin-top: 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #252525;
 }
